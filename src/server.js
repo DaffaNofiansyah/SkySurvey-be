@@ -25,8 +25,8 @@
 
 
 import serverless from "serverless-http";
-import app from "../../app.js"; // adjust path if needed
-import { sequelize } from "../../models/index.js";
+import app from "./app.js"; // adjust path if needed
+import { sequelize } from "./models/index.js";
 
 // Initialize DB connection on cold start
 (async () => {
